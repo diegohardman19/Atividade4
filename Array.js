@@ -2,11 +2,11 @@ let nomes = ["Ana", "Bruno", "Carlos", "Diana", "Eduardo"];
 
 console.log("Terceiro nome:", nomes[2]);
 
-nomes.push("Fernanda");       // Adiciona ao final
-nomes.unshift("Gabriel");     // Adiciona ao início
+nomes.push("Fernanda");       
+nomes.unshift("Gabriel");     
 
 
-nomes.pop();                  // Remove o último
+nomes.pop();                  
 console.log("Array atualizado:", nomes);
 
 let numeros = [2, 4, 6, 8];
